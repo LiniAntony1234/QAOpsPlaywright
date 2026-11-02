@@ -3,7 +3,7 @@ const {test,expect}=require('@playwright/test')
 test('@UI Playwright Special Locators', async ({page})=>
     {
         await page.goto("https://rahulshettyacademy.com/angularpractice/");
-        //demo test
+        //demo testt
         //select the checkboxes and radiobuttons
         await page.getByLabel("Check me out if you Love IceCreams!").check();
         //or  await page.getByLabel("Check me out if you Love IceCreams!").click();
